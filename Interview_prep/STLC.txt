@@ -1,0 +1,314 @@
+*** Documentation ***
+This file contains information about key concepts about STLC stages, Activities performed and Role of Automation Tester
+
+================================================================================
+@Definition :
+The Software Testing Life Cycle (STLC) consists of several stages that ensure software quality through systematic testing processes. Each stage plays a vital role in achieving effective testing outcomes.
+
+@Stages :
+1. Requirement Analysis
+- Activities: Review requirement documents, identify testable aspects, and clarify ambiguities.
+- Importance: Clear understanding of requirements ensures comprehensive test coverage.
+- Role as Automation Tester: Conduct requirement review meetings to understand what needs to be tested and clarify any confusing points; create a document listing testable requirements, helping the team focus on specific deliverables.
+
+2. Test Planning
+- Activities: Develop a test plan covering scope, approach, resources, and timelines.
+- Importance: Provides a roadmap for the testing process, aligning goals and expectations.
+- Role as Automation Tester: Create a plan for the testing process, deciding what to test, how to test, and who will do the work; define tools and timelines, ensuring collaboration with stakeholders to establish acceptance criteria.
+
+3. Test Case Design
+- Activities: Write test cases and prepare automated test scripts.
+- Importance: Well-structured test cases ensure thorough coverage and ease of execution.
+- Role as Automation Tester: Write detailed test cases and prepare automated test scripts; create easy-to-follow test cases and develop standardized templates for consistency across documentation.
+
+4. Test Environment Setup
+- Activities: Set up necessary environments and configure testing tools.
+- Importance: A properly configured environment is essential for accurate test results.
+- Role as Automation Tester: Coordinate with IT to ensure that all test environments and tools are ready for testing.; develop a detailed setup guide that documents configurations and dependencies.
+
+5. Test Execution
+- Activities: Execute test cases, document results, and report defects.
+- Importance: Direct testing helps identify issues and validate functionality.
+- Role as Automation Tester: Manage automated test execution through CI/CD pipelines; create dashboards to visualize real-time results for quick feedback.
+
+6. Defect Reporting
+- Activities: Log and categorize defects found during testing.
+- Importance: Clear defect documentation aids in quick resolution and communication.
+- Role as Automation Tester: Document and prioritize any defects found during testing; establish guidelines for comprehensive defect logging, improving collaboration with developers.
+
+7. Test Closure / Reporting
+- Activities: Review testing activities and prepare closure reports.
+- Importance: Analysis of testing outcomes informs future projects and strategies.
+- Role as Automation Tester: Compile test closure reports summarizing the testing activities and outcomes ; highlighting metrics and insights; present findings to management to identify areas for improvement.
+
+8. Re-testing and Regression Testing
+- Activities: Re-test resolved defects and perform regression testing to ensure no new issues arise.
+- Importance: Ensures software stability after changes and protects existing functionality.
+- Role as Automation Tester: Develop a robust regression test suite; conduct retrospectives to refine testing processes and build a repository of automated scripts.
+
+================================================================================
+Q) Differentiate between verification and validation in STLC
+Ans.)
+Verification:
+    - process of evaluating work products (requirements, design, code, etc.) to ensure that they meet specified requirements.
+    - It answers the question, "Are we building the product right?".
+    - It focuses on the processes and documentation.
+    - It ensures that the product is being developed correctly according to the specifications and standards.
+    - Reviewing requirements for completeness, ensuring design specifications match requirements.
+
+Validation:
+    - process of evaluating the finished product to ensure it meets the business needs and the requirements intended for the end user.
+    - It answers the question, "Are we building the right product?"
+    - It focuses on the final product and its functionality.
+    - It checks whether the software works as intended in real-world scenarios.
+    - Running tests to ensure the application behaves as expected and meets user needs.
+================================================================================
+Q) What is the role of a traceability matrix in STLC?
+Ans.)
+    - The primary role is to establish a clear relationship between requirements and the corresponding test cases.
+    - Ensures that all requirements defined in the requirements documentation are covered by test cases.
+    - Helps in assessing whether all the functional and non-functional requirements have been tested.
+    - Provides a visual representation of which requirements have corresponding test cases and highlights any gaps in coverage.
+    - Allows testers to quickly identify which test cases need to be updated or created in case of requirement changes
+    - Aids in prioritizing test cases based on their associated requirements, ensuring that critical aspects are validated early in the testing process.
+    - Provides a clear view of the testing scope and assists in discussions regarding testing status and progress.
+    - Provides documentation that can be used for audits and reviews, demonstrating that all requirements have been tested.
+================================================================================
+Q) How do you prioritize test cases based on their severity and priority?
+Ans.)
+  1. Define Severity: Assess the impact of a defect on the application's functionality.
+    Critical: Causes system failure or data loss.
+    Major: Significantly affects functionality but has a workaround.
+    Minor: Affects usability but does not impede functionality.
+    Trivial: Cosmetic issues with minimal impact.
+  2. Define Priority: Determine the urgency of fixing the defect based on business needs and timelines.
+    High Priority: Needs immediate attention due to business impact.
+    Medium Priority: Should be resolved soon but is not urgent.
+    Low Priority: Can be addressed in future releases.
+  3. Mapping Test Cases:
+    Test cases linked to critical requirements or high-impact features receive higher priority.
+    Consider the project deadlines and release plans; critical deficiencies may require expedited testing.
+  4. Risk Assessment: Evaluate risks associated with not testing certain features thoroughly.
+    High-risk areas should be prioritized.
+  5. Stakeholder Input: Consult with stakeholders to align on priorities especially for business-critical applications.
+================================================================================
+Q) What is the difference between black-box testing and white-box testing?
+Ans.)
+The difference lies in the approach and knowledge of the tester regarding the internal workings of the software.
+ Black-Box Testing: examines application behavior without internal insight
+    @Definition: Testing without knowledge of the internal code or logic of the application.
+    @Focus: Evaluates functionality based on requirements and specifications.
+    @Approach: Testers provide inputs and verify outputs without any consideration of how the outputs are produced.
+    @Examples: Functional testing, user acceptance testing (UAT), and system testing.
+ White-Box Testing: focuses on code structure and logic
+    @Definition: Testing with full knowledge of the internal code and logic of the application.
+    @Focus: Tests internal structures, code paths, and logic.
+    @Approach: Testers design tests based on code and implementation details to assess performance and security.
+    @Examples: Unit testing, code coverage testing, and integration testing.
+================================================================================
+Q) Explain the concept of boundary value analysis
+Ans.)
+@Definition :
+    -Testing technique used to identify errors at the boundaries of input value ranges rather than focusing solely in the center.
+    - BVA helps ensure robust testing by focusing on potential areas of failure at the boundaries
+@Process :
+    1. Focus on Edge Cases: BVA tests values at the edges of input domains, as defects often occur at these boundaries.
+    2. Identify Input Ranges: For any given input, determine the valid and invalid ranges.
+    3. Test Cases: Create test cases using:
+        - The exact boundary values (minimum and maximum).
+        - Just inside the boundaries (one unit above/below).
+        - Just outside the boundaries (one unit above/below).
+@Example :
+    If an input field accepts values from 1 to 100:
+    - Valid test cases: 1 (min), 100 (max).
+    - Invalid test cases: 0 (below min), 101 (above max).
+    - Just inside test cases: 2 (above min), 99 (below max).
+================================================================================
+Q) Describe what regression testing is and when it's necessary
+Ans.)
+@Definition :
+    - Verifies that recent code changes have not adversely affected existing functionalities i.e., software integrity is maintained
+    - Ensure that previously working features continue to operate as intended after changes are made
+@When It's Necessary:
+    1. Code Changes: After bug fixes, feature enhancements, or updates to existing code.
+    2. New Features: When new functionalities are added that may impact existing features.
+    3. Environment Changes: After migrating the application to a different environment, such as a new OS, server, or database.
+    4. Integration: When integrating third-party components or systems into the application.
+    5. Performance Optimizations: After optimizing code for performance, to ensure that functionality remains intact.
+================================================================================
+Q) What are the challenges in implementing an effective STLC process?
+Ans.)
+    1. Inadequate Requirements: Ambiguous or incomplete requirements can lead to misunderstandings and gaps in testing.
+    2. Communication Gaps: Poor communication among stakeholders (developers, testers, and product owners) can result in misalignment and missed expectations.
+    3. Resource Limitations: Insufficient time, budget, or personnel can hinder the thoroughness and effectiveness of the testing process.
+    4. Changing Requirements: Frequent changes in requirements can disrupt testing plans and lead to scope creep.
+    5. Tool Integration: Difficulty in integrating various testing tools and technologies may affect efficiency and reporting.
+    6. Lack of Skilled Personnel: Insufficient training or expertise among team members can impact the quality of testing.
+    7. Test Environment Issues: Inconsistent or unstable test environments can result in unreliable test outcomes and hinder test execution.
+    8. Automation Challenges: Selecting the appropriate automation tools and scripting can be complex, especially with varying technology stacks.
+    9. Management Support: Lack of management buy-in or support for the testing process can undermine its importance and resources allocated.
+================================================================================
+Q) Explain the concept of "shift left testing" and its benefits
+Ans.)
+@definition :
+    Shift Left Testing is a testing approach that emphasizes the need to conduct testing earlier in the software development life cycle (SDLC).
+    The concept encourages integrating testing activities into every phase of development, starting from requirements gathering through design and coding, rather than waiting until the end of the cycle.
+@Benefits of Shift Left Testing:
+    1. Early Bug Detection: Identifying defects early reduces the cost and effort required to fix them compared to finding them later in the process.
+    2. Improved Quality: Continuous testing ensures that quality is built into the product from the beginning, leading to a more robust application.
+    3. Faster Time to Market: By reducing the number of defects and rework, teams can accelerate their development cycles, allowing for quicker releases.
+    4. Enhanced Collaboration: Encourages collaboration among developers, testers, and business stakeholders, fostering a better understanding of requirements and expectations.
+    5. Reduced Risks: Early identification of issues helps mitigate risks related to project timelines, costs, and customer satisfaction.
+    6. Better Requirement Clarity: Engaging testers early often leads to clearer requirements and a more thorough understanding of the application.
+================================================================================
+Q) How do you integrate automated testing tools into your STLC process?
+Ans.)
+    1. Identify Test Cases for Automation: Select test cases that are repetitive, require extensive data, or have high risks, as these are ideal candidates for automation.
+    2. Choose the Right Tools: Evaluate and select automation tools that align with the technology stack, project needs, and team expertise (e.g., Selenium, QTP, JUnit).
+    3. Define Automation Strategy: Develop a clear strategy outlining the scope of automation, goals, frameworks to be used (e.g., data-driven, keyword-driven), and maintenance plans.
+    4. Develop Automation Scripts: Write automated test scripts based on the selected test cases, maintaining best coding practices for readability and maintainability.
+    5. Integrate with CI/CD: Incorporate the automated tests into the Continuous Integration/Continuous Deployment (CI/CD) pipeline to ensure tests run automatically with each build.
+    6. Execute Tests: Run automated tests regularly and analyze results to identify any failures or regressions.
+    7. Maintain Test Scripts: Regularly update and maintain test scripts to ensure they remain effective and aligned with evolving requirements.
+    8. Review Results: Analyze test results and report findings to stakeholders, making adjustments based on feedback for continuous improvement.
+    9. Train the Team: Provide training and resources for team members to ensure they are proficient in using the automated testing tools.
+================================================================================
+Q) How do you address flaky tests in automation?
+Ans.)
+    - Identifying Root Causes: Analyze flaky tests to determine if failures are due to timing issues, environmental problems, or bugs in the application.
+    - Implicit and Explicit Waits: Use appropriate wait strategies to handle timing issues in web applications, ensuring elements are fully loaded before interactions.
+    - Stabilizing Tests: Refactor tests to create a more stable testing environment, including isolating tests to avoid dependency on the state of the application.
+    - Test Data Management: Ensure that the test data is consistent and reliably set up prior to test execution.
+    Regular Review: Continuously monitor and review flaky tests and prioritize them for investigation and fixes.
+
+8) RTM - with Forward-Backward-Bi-directional Traceability
+Q) Explain what is smoke testing and Sanity Testing ?
+Ans.)
+Smoke Testing:
+  @ Definition:
+    - A preliminary testing phase that assesses the basic and critical functionalities of an application to verify its stability for further testing.
+    - Conducted after a new build is created
+    - It functions as a "build verification test" to ensure that major functions work correctly before deeper tests are performed.
+    - Quickly evaluate the application's health.
+    - Identify major issues early, preventing wasted time on unstable builds.
+    - Optimize testing efficiency by filtering out problematic builds.
+
+Sanity Testing:
+  Definition:
+    - A Quick and focused type of testing used to verify specific functionalities or bug fixes in a software build, ensuring they work as intended.
+    - Conducted following minor changes or bug fixes.
+    - It's a narrow-scope evaluation performed after changes are made to ensure it did not introduce new issues
+    - Confirm that particular areas of the application are stable before proceeding with broader testing (such as regression testing).
+
+@ Differences Between Smoke and Sanity Testing:
+  Scope:     Smoke testing covers a broader aspect of the application’s functionalities, while sanity testing focuses on specific areas.
+  Timing:    Smoke testing is performed on new builds to assess overall stability; sanity testing is conducted after changes or fixes to verify targeted functionalities.
+  Purpose:  Smoke testing aims to ensure the application is ready for further testing, while sanity testing ensures the stability of recent changes before larger-scale testing is executed.
+================================================================================
+Q ) Define and Explain below testing methodologies.
+
+1. Adhoc Testing:
+    - A form of informal testing without any formal test plan or documentation.
+    - Testers explore the application randomly to find defects.
+
+2. Monkey Testing:
+    - A type of random testing where the tester inputs arbitrary or random data into the application without any knowledge of the application's functionality.
+    - The aim is to find unexpected issues.
+
+3. Gorilla Testing:
+    - An intense or focused form of testing of a specific functionality or feature, usually after it has undergone changes, to ensure that it performs as expected under various scenarios.
+
+4. Exploratory Testing:
+    - A hands-on approach to testing where testers explore the software, learn about its features, and design their tests on the fly.
+    - It combines test design and execution into one process, often relying on testers’ intuition and experience.
+
+5. Dynamic Testing:
+    - Testing conducted by executing the code.
+    - It involves running the application with various inputs and examining the outputs as well as the internal behavior.
+
+6. Static Testing:
+    - Testing that involves reviewing and analyzing the code, requirements, and design documents without executing the software.
+    - Techniques include code reviews, inspections, and static analysis.
+
+7. Interface Testing (Client-Server-Database):
+    - Testing interactions between different components or layers of an application, such as the user interface (client), the application logic (server), and the database.
+    - This ensures data exchange between these layers occurs correctly.
+
+9. Error Guessing:
+    - A technique where testers use their intuition and experience to anticipate where errors might occur and design test cases to try and expose those errors.
+
+10. Boundary Value Analysis:
+    - A testing technique that focuses on values at the boundaries (minimum and maximum) of equivalence partitions to ensure the system behaves correctly at these edge cases.
+
+11. Equivalence Class Partitioning:
+    - A technique that divides input data into equivalent partitions where test cases can be derived from each partition, reducing the total number of test cases while maintaining test coverage.
+
+12. Risk Mitigation:
+    - The process of identifying, assessing, and prioritizing risks followed by the application of resources to minimize, control, or eliminate the likelihood and impact of those risks on the project.
+
+13. Authentication:
+    - The process of verifying the identity of a user or system, typically involving credentials such as usernames and passwords.
+
+14. Authorization:
+    -The process of granting or denying access rights to a user based on their identity and permissions allocated to them.
+
+15. Test Closure Report:
+    - A document that summarizes the testing activities, results, and overall quality of the application at the end of the testing life cycle.
+    - It typically includes metrics, defect status, and lessons learned.
+
+16. Error Seeding:
+    A technique where known defects are deliberately inserted into the software to measure the effectiveness of the testing process and the testers' ability to identify and fix these defects.
+
+17. Showstopper Defect - Suspension Criteria:
+    - A severe defect that halts the testing process because it prevents further testing from being carried out. Such defects must be resolved before testing can resume.
+
+18. A/B Testing:
+    - A method of comparing two versions of a web page, application, or feature to determine which one performs better in terms of specific metrics (e.g., conversion rates).
+
+19. Concurrency Testing:
+    - Testing that verifies the system's ability to handle multiple transactions or processes simultaneously without performance degradation or failures. It checks for issues like deadlock, race conditions, or resource contention.
+
+20. Priority:
+    - Refers to the importance of fixing a defect based on the business impact or urgency. It determines how soon a defect should be addressed.
+
+21. Severity:
+    - Refers to the level of impact a defect has on the application’s functionality. It indicates how serious the defect is and its effect on the system (e.g., critical, major, minor).
+
+22. Integration Testing:
+    - Integration testing is a software testing phase where individual modules or components of an application are combined and tested as a group.
+    - The primary goal is to identify interface defects and ensure that the integrated components work together correctly.
+
+23. Incremental Testing:
+    - An approach to integration testing where components are integrated and tested in small increments, rather than all at once.
+    - This method allows for early detection of defects and makes it easier to isolate issues as each set of components is tested after integration.
+
+24. Top-Down Testing:
+    - Testing starts with higher-level modules and works downward, using stubs for lower-level modules.
+    - It allows early design flaw detection but may involve time-consuming stub development.
+
+25. Bottom-Up Testing:
+    -Testing starts with lower-level modules and works upward, using drivers for upper-level modules.
+    - It encourages robust lower-level designs but may delay detection of upper-level integration issues.
+
+26. Non-Incremental Testing/ Big Bang Testing:
+    - All components are integrated at once after development and tested collectively.
+    - This method can complicate defect isolation, as issues may arise from interactions between multiple components.
+
+27. UAT and handoff given to teams.
+    - The final phase of the software testing process, where actual users validate the system's functionality and performance against the business requirements.
+    - It is conducted in a real-world environment to ensure that the software meets the needs and expectations of its end users before it is released into production.
+  @Handoffs in UAT
+        Development to UAT: Transfer application and documentation.
+        UAT to Development: Report defects for resolution.
+        UAT to Operations: Handoff for production deployment, including documentation and support materials.
+================================================================================
+Q) What are the different reports in testing?
+Ans.)
+Test Summary Report: Provides an overview of testing activities, outcomes, and metrics, summarizing the testing process.
+Bug Report: Documents defects found during testing, including details like severity, steps to reproduce, and status.
+Test Case Report: Lists the test cases executed, their results (pass/fail), and any comments regarding their execution.
+Defect Density Report: Measures the number of defects identified relative to the size of the software, typically expressed per unit of measure (e.g., per KLOC).
+Execution Report: Details the status of test execution, indicating which test cases were executed, passed, failed, or skipped.
+Requirement Traceability Matrix (RTM): Ensures that all requirements are covered by test cases, linking requirements to their corresponding tests.
+Test Coverage Report: Measures the extent to which the application has been tested, indicating which parts of the application have been covered by test cases.
+================================================================================

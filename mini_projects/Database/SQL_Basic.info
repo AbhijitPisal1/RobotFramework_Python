@@ -1,0 +1,322 @@
+Database Concepts
+
+- Database: A collection of information.
+- Column (Fields): Individual kind of information.
+- Row (Record): Individual set of information.
+- Schema: Layout and definition of rules, tables, and relationships.
+
+Why SQL?
+
+- Write a question that a computer can understand.
+- To express what you mean explicitly.
+- Breakdown requirements into a series of smaller questions.
+- Adopted in different databases: SQLite, TSQL, MySQL, PostgreSQL.
+
+SQL Statements
+
+- Statement: Anything written in SQL to get an answer from the database.
+- Whitespace independent for readable statements.
+- Must end with a semicolon.
+
+SQL Clauses
+
+- Clauses: Basic components of a statement constructed out of:
+  - Keywords: What action needs to be taken.
+  - Field Name: Where to look and what to look for.
+  - Predicates: Conditions and expressions representing values/info we are using.
+
+Common SQL Queries
+
+1. SELECT Clause --> tells db that we want some info returned
+
+Ex.  SELECT 'Hello World!';
+Desc.   can get info not in database , anything written in '' will be return as text
+
+Ex. SELECT First_name FROM people;
+listed all values in First_name field values from people table
+
+Ex.   SELECT * FROM people
+wildcard for all values returned from table people
+
+
+WHERE - tells db where to look
+
+Ex.   SELECT * FROM people WHERE state="CA";
+gives condition, expression that should be fulfilled
+
+Ex.   SELECT * FROM people WHERE Shirt_or_hat="hat";
+
+Ex.   SELECT First_name,Shirt_or_hat
+FROM people
+WHERE Shirt_or_hat="hat";
+
+syntax has be to mentioned <SELECT> <FROM> <WHERE>
+
+Ex.   SELECT first_name, Last_name
+From People
+WHERE state="CA" AND Shirt_or_hat='shirt';
+
+Logical operator used in predicates : IS, IS NOT, AND, OR, !=, etc.
+
+Ex.   SELECT first_name, Last_name
+FROM people
+WHERE (state='CA' OR state="CO') AND Shirt_or_hat='shirt';
+
+
+LIKE - matching characters
+
+SELECT first_name, last_name, state
+FROM people
+WHERE state LIKE 'C%';
+
+---state should begin with C
+
+SELECT first_name, last_name, state
+FROM people
+WHERE state LIKE '%N';
+
+---state should END with N
+
+SELECT first_name,
+FROM people
+WHERE first_name LIKE '%j';
+
+---first name should END with j
+
+SELECT first_name,
+FROM people
+WHERE company_name LIKE '%LLC%';
+
+---company name should have text LLC
+
+
+LIMIT - limits no of responses
+
+SELECT first_name,
+FROM people
+WHERE first_name LIKE '%j'
+LIMIT 5;
+
+- only 5 response shown
+
+SELECT first_name,
+FROM people
+WHERE first_name LIKE '%j'
+LIMIT 10 OFFSEt 5;
+
+offsets first 5 records then shows 10 records from 6th
+
+ ORDER BY
+
+Ex.   SELECT first_name, Last_name FROM people; -- generic order given
+
+Ex.   SELECT first_name, last_name FROM people
+ORBER BY first_name;
+
+Default value is Ascending (ASC)
+Switch to Descending by DESC;
+
+Ex.   SELECT first_name, last_name FROM people
+ORBER BY first_name DESC;
+
+Ex.   SELECT state, last_name, first_name
+FROM People
+ORDER BY state ASC, last_name DESC;
+
+state in ascending and last name in descending
+
+Ex.   SELECT first_name, LENGTH(first_name) FROM people;
+
+Ex.   SELECT DISTINCT(First_name) FROM people
+ORDER BY first_name;
+
+Ex.   SELECT COUNT(*) FROM people WHERE state='CA';--- number of rows not need of fields name
+
+ JOIN
+asks for records that are associated with each other based on a common peice of information
+
+Ex.   SELECT first_name, state
+FROM people
+JOIN states
+ON people.state=states.state_abbrev;
+
+SELECT people.first_name, people.state, states.division
+FROM people
+JOIN states
+ON people.state-states.state_abbrev
+WHERE people.first_name LIKE 'j%' AND states.region='South';
+
+JOIN (INNER) - match in overlap spave
+dont match in overlap space
+LEFT JOIN
+RIGHT JOIN (OUTER)
+FULL OUTER JOIN
+
+SELECT DISTINCT(people.state), states.state_abbrev
+FROM people
+LEFT JOIN people ON people.state=states.state_abbrev
+ORDER BY people.states;
+
+
+ combine or group by
+
+SELECT first_name, COUNT(first_name)
+FROM people
+GROUP BY first_name;
+
+SELECT last_name, COUNT(last_name)
+FROM people
+GROUP BY last_name;
+
+SELECT state, COUNT(state)
+FROM people
+GROUP BY state;
+
+SELECT state, quiz_points COUNT(quiz_points)
+FROM people
+GROUP BY state, quiz_points;
+
+ data type
+kind of data stored in field
+certain operations not possible with certain types
+
+Binary, date time, number, text, Boolean
+
+NULL - represents nothing
+does not means no, false or zero
+null means no value in sql
+
+Ex.   SELECT(4+2)
+
++, -, * , / and %
+
+SELECT 4+2;
+SELECT 1/3; == 0
+SELECT 1/3.0; == 0.33333333
+SELECT 2>3; 0- false
+SELECT 5!=3;- 1 - True
+
+Ex.   SELECT first_name, quiz_points
+FROM people
+WHERE quiz_points > 70;
+
+Ex.   SELECT MAX(quiz_points), MIN(quiz_points), SUM(quiz_points)
+FROM people;
+
+Ex.   SELECT team, COUNT(*), sum(quiz_points),
+(sum(quiz_points)/count(*)) AS Average
+FROM people
+GROUP BY team;
+
+ subselect
+
+narrow down on specific data in larger query
+
+Ex.   SELECT first_name, last_name, quiz_points
+FROM people
+WHERE quiz_points = (SELECT MAX (quiz_points) FROM people);
+
+SELECT * FROM people
+WHERE state=(SELECT state_abbrev FROM states WHERE state_name="Minnesota');
+
+ transform data
+change case of string, convert value into different type trimming, and replacing a string
+
+Ex.   SELECT LOWER(first_name), UPPER(last_name)
+FROM people;
+
+Ex.   SELECT LOWER(first_name), SUBSTR(last_name, 1, 5)
+FROM people;
+
+Ex.   SELECT LOWER(first_name), SUBSTR(last_name, -2)
+FROM people;
+
+Ex.   SELECT LOWER(first_name), REPLACE(last_name, 'a', '_')
+FROM people;
+
+case sensitive
+
+Ex.   SELECT quiz_points FROM people ORBER BY CAST(quiz_points AS CHAR);
+-- alpha numeric sort
+
+ AS keyword
+
+SELECT first_name AS Name, last_name AS Surname
+FROM people;
+
+>Ex.   add or modify data
+
+INSERT - add data to table - INSERT INTO tablename(field1, field2) VALUES (value1, value2);
+
+Ex.   INSERT INTO people (first_name) VALUES ('BOB')
+
+Ex.   INSERT INTO people (first_name, last_name, state, city, shirt_or_hat)
+VALUES ('MARY' , 'Hamilton', 'OR', 'Portland', 'hat');
+
+Ex.   INSERT INTO people (first_name, Last_name)
+VALUEs ('George', 'White'), ('Jean', 'Smith'), ('Carol','Andrews');
+
+
+Ex.   Modify by UPDATE
+
+Ex.   UPDATE tablename SET field1=value1,
+field2=value2 WHERE condition;
+
+Ex.   UPDATE people SET first_name='martha'
+WHERE first_name='George' AND last_name='White';
+
+Ex.   UPDATE people SET company='MegaCorp Inc'
+WHERE company-'Fisher LLC';
+
+>>DELETE FROM tablename WHERE condition;
+
+Ex.   DELETE FROM people WHERE first_name='Martha' AND Last_name='White';
+
+Ex.   DELETE FROM people WHERE Id_number IS NULL;
+
+Put text values in 'single quotes'
+put field names with space inside `inside backticks`
+
+
+
+To find the second-largest salary in an SQL table, you can use the following query. Suppose the table is named employees and the salary column is named salary:
+
+sql
+SELECT MAX(salary) AS SecondHighestSalary
+FROM employees
+WHERE salary < (SELECT MAX(salary) FROM employees);
+
+
+
+Question: How can you find the highest salary in the employees table?
+Answer:
+sql
+   SELECT MAX(salary) AS HighestSalary
+   FROM employees;
+Select
+Question: Write a query to count the number of employees in each department. Assume the table has a column named department_id.
+Answer:
+sql
+   SELECT department_id, COUNT(*) AS EmployeeCount
+   FROM employees
+   GROUP BY department_id;
+Select
+Question: How can you retrieve all employees with salaries greater than the average salary?
+Answer:
+sql
+   SELECT *
+   FROM employees
+   WHERE salary > (SELECT AVG(salary) FROM employees);
+Select
+Question: Write a SQL query to find the employee with the minimum salary in the employees table.
+Answer:
+sql
+   SELECT MIN(salary) AS LowestSalary
+   FROM employees;
+Select
+Question: How do you list all employees whose names start with the letter 'A'?
+Answer:
+sql
+   SELECT *
+   FROM employees
+   WHERE name LIKE 'A%';

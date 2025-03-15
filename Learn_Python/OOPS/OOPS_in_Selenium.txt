@@ -1,0 +1,36 @@
+Summary of OOP Concepts in Selenium Automation Framework
+
+1. Abstraction
+
+- Definition: Abstraction involves hiding the internal implementation details and only exposing the necessary functionalities to users.
+- Example in Selenium: In the Page Object Model (POM) design pattern, locators (like $id$, $name$, $xpath$, etc.) are contained within a Page Class, while the implementation details are not exposed in the test scripts.
+- Java Example: An abstract parent class `Phone` defines abstract methods like $turnon()$, $makeCall()$, and $turnoff()$. The `iPhone` class implements these methods without revealing the internal workings.
+
+2. Interface
+
+- Definition: An interface in Java defines a contract for classes, where methods are declared but not implemented.
+- Example in Selenium: The statement `WebDriver driver = new FirefoxDriver();` illustrates this concept. Here, $WebDriver$ is an interface, while $FirefoxDriver$ is a concrete class implementing the interface.
+- Characteristics: Interfaces allow for complete abstraction and enable features like multiple inheritance.
+
+3. Inheritance
+
+- Definition: Inheritance is a mechanism where a new class (child class) derives properties and behaviors from an existing class (parent class).
+- Application in Automation Framework: A Base Class is created to initialize WebDriver, wait commands, and data management (like properties and Excel files). Other classes like tests or utilities can extend the Base Class, leveraging the shared functionalities.
+
+4. Polymorphism
+
+- Definition: Polymorphism allows methods to do different things based on the object or the parameters passed.
+- Types:
+    Method Overloading: The same method name with different parameters.
+                For example, using different time parameters for implicit waits in Selenium.
+    Method Overriding: A child class can redefine a method already defined in its parent class.
+                This is seen in Selenium with methods like $get$ and $navigate$.
+
+5. Encapsulation
+
+- Definition: Encapsulation binds the data (variables) and methods that operate on that data into a single unit or class, restricting direct access to some of the object's components.
+- Example in Selenium: In the Page Object Model, classes are designed to encapsulate web elements and their actions.
+- Java Example: The `EmployeeDetails` class has private member variables with public getter and setter methods, controlling access and modifications to the employee data.
+
+
+Source :https://www.softwaretestingmaterial.com/oops-concept-in-automation-framework/

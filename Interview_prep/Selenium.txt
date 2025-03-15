@@ -1,0 +1,400 @@
+*** Documentation ***
+This file contains information about key selenium concepts useful for interview preparation (Sources : multiple Open Online websites)
+
+=================================================================================
+Q) What is Selenium?
+Ans.) Selenium is an open-source tool used for automating web applications for testing purposes. It provides a suite of tools to automate the browser actions and interact with web elements programmatically.
+Q) How does Selenium architecture work ?
+Ans.) Selenium WebDriver follows a 𝗖𝗹𝗶𝗲𝗻𝘁-𝗦𝗲𝗿𝘃𝗲𝗿 architecture.
+    - The client sends commands to the server through 𝗪𝟯𝗖 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹 in the form of scripts written in a programming language. (E.g. Java, Python, C#)
+    - The WebDriver act as a bridge and translate commands into the browser specific instructions.
+    - W3C Protocol communicates with the browsers using browser driver. (𝗘.𝗴. 𝗖𝗵𝗿𝗼𝗺𝗲𝗗𝗿𝗶𝘃𝗲𝗿, 𝗚𝗲𝗰𝗸𝗼𝗗𝗿𝗶𝘃𝗲𝗿)
+    - finally browser execute the commands and send response back to the client.
+=================================================================================
+Q) What is the structure of Selenium?
+Ans.)
+The Selenium suite consists of the following components:
+    1. Selenium WebDriver: An interface that allows interaction with browsers, providing methods to control browser actions like clicking, typing, and navigating.
+    2.Selenium IDE: A browser extension that enables record-and-playback capabilities for automated testing, suitable for beginners and quick test creation.
+    3.Selenium Grid: A tool that allows for the parallel execution of tests on different machines and browsers, facilitating cross-browser testing and reducing test execution time.
+    4. Selenium Remote Server: Acts as a hub for distributing test execution across multiple browsers and environments, facilitating the use of WebDriver over a network.
+    5. Language Bindings: Libraries that allow Selenium to be used with various programming languages, including Java, Python, C#, and Ruby, enabling developers to write tests in their preferred language.
+=================================================================================
+Q) What are the advantages of using Selenium?
+Ans.)
+    - Open Source: Free to use and widely supported by a large community.
+    - Cross-Browser Compatibility: Supports multiple browsers like Chrome, Firefox, IE, etc.
+    - Multiple Language Support: Supports various programming languages like Python, Java, C#, etc.
+    - Integration: Can be integrated with frameworks like TestNG, JUnit, and Robot Framework.
+    - Parallel Testing: With Selenium Grid, you can run tests in parallel on different machines.
+=================================================================================
+Q) What are the different types of locators in Selenium?
+Ans.)
+    1. ID Locator: `$driver.findElement(By.id("elementId"))`
+    2. Name Locator: `$driver.findElement(By.name("elementName"))`
+    3. Class Name Locator: `$driver.findElement(By.className("elementClassName"))`
+    4. Tag Name Locator: `$driver.findElement(By.tagName("tagName"))`
+    5. Link Text Locator: `$driver.findElement(By.linkText("linkText"))`
+    6. Partial Link Text Locator: `$driver.findElement(By.partialLinkText("partialText"))`
+    7. XPath Locator: `$driver.findElement(By.xpath("xpathExpression"))`
+    8. CSS Selector Locator: `$driver.findElement(By.cssSelector("cssSelector"))`
+=================================================================================
+Q) What is the difference between `findElement()` and `findElements()`?
+Ans.)
+    - `$driver.findElement()` returns a single web element matching the provided locator, or throws `NoSuchElementException` if not found.
+    - `$driver.findElements()` returns a list of web elements matching the provided locator, or an empty list if none are found.
+=================================================================================
+Q) How do you handle dynamic web elements?  (Both selenium and Robotframework)
+Ans.)
+    1. Waits: Use the built-in waiting keywords to pause the execution until the element becomes available.
+        - Wait Until Element Contains: This keyword can be useful when you need to wait for an element to contain specific text. It ensures the test waits until the expected content is present.
+        - Wait Until Page Contains Element: Use this keyword to wait for a specific element to be present on the page. This is useful in situations where the entire page is dynamic.
+        - Get Text: To verify the content of a dynamic element, you can use Get Text to retrieve the text content after waiting for the element to be visible.
+        - Element Should Be Visible: This keyword is used to assert that a given element is visible before interacting with it. It helps avoid errors when trying to interact with elements that are not yet rendered.
+        - Set Focus To Element: If an element is dynamic and requires user focus to be interacted with, you may want to set focus on it before taking action.
+
+    2. Dynamic Locators: If the web elements have ids or attributes that change, consider using XPath or CSS selectors that can match the dynamic parts. For instance, you can use Get WebElement with an XPath that targets the element based on its position in the DOM or any static attributes it may have.
+        ${element}=  Get WebElement  xpath=//div[@class='dynamic-class' and contains(text(), 'Static Part')]
+
+    3. Retry Logic: Sometimes elements may not be available due to loading times. You can create a retry mechanism using the Run Keyword And Ignore Error keyword to try locating the element multiple times before failing.
+        Run Keyword And Ignore Error  Wait Until Element Is Visible  locator  timeout=5
+    4. JavaScript Execution: In cases where standard Selenium methods do not work due to dynamic changes, you can execute JavaScript to interact with the elements. Use the Execute JavaScript keyword to perform actions like clicking or retrieving values.
+        Execute Javascript  document.querySelector('selector').click()
+=================================================================================
+Q) What are the different types of waits in Selenium?
+Ans.)
+In Selenium, there are primarily three types of waits used to handle synchronization issues when interacting with web elements. These are:
+1. Implicit Wait:
+	- This wait is set for the entire duration of the WebDriver instance. It makes WebDriver poll the DOM for a specified amount of time when trying to find an element if it is not immediately available.
+2. Explicit Wait:
+	- This wait allows you to set a condition that must be met before proceeding to the next step in the test. It is more flexible than implicit waits as it can wait for specific conditions (like visibility of an element, presence of an element, etc.).
+3. Fluent Wait:
+	- This is an extension of the explicit wait that allows you to define the frequency with which to check for a condition. You can also ignore specific types of exceptions while waiting.
+=================================================================================
+Q) What are the different types of WebDriver APIs available in Selenium?
+Ans.)
+    - ChromeDriver: To automate Google Chrome.
+    - FirefoxDriver: To automate Mozilla Firefox.
+    - IEDriver: To automate Internet Explorer.
+    - EdgeDriver: To automate Microsoft Edge.
+    - SafariDriver: To automate Safari on macOS.
+=================================================================================
+Q) How do you handle alerts and pop-up windows in Selenium and robotframework?
+Ans.)
+Alerts:
+  @ Robot framework keyword-
+    - Alert Should Be Present : Verifies that an alert is present and by default, accepts it.
+    - Alert Should Not Be Present : Verifies that no alert is present. If the alert actually exists, the action argument determines how it should be handled. By default, the alert is accepted, but it can be also dismissed or left open the same way as with the Handle Alert keyword.
+    -Handle Alert : Handles the current alert and returns its message.
+        ACCEPT: Accept the alert i.e. press Ok. Default.
+        DISMISS: Dismiss the alert i.e. press Cancel.
+        LEAVE: Leave the alert open.
+    - Input Text Into Alert : Types the given text into an input field in an alert.
+  @ Selenium :
+    Handling Simple Alert: To handle a simple alert, use the switchTo().alert() method to switch to the alert and the accept() method to confirm it.
+    Handling Confirmation Alert: For confirmation alerts, you can either accept or dismiss the alert using accept() or dismiss(), respectively.
+    Handling Prompt Alert: Prompt alerts allow users to input data. You can retrieve the input field's text using getText() and send text to it using the sendKeys() method.
+
+Window management :
+    1. `Close Window`: closes the currently active window or tab.
+        #Selenium : $driver.close()$
+    2. `Get Window Handles`: retrieves a list of all the currently opened window handles. Each handle is a unique identifier for an open window, which can be used to switch between them.
+        #Selenium : $driver.current_window_handle$ or $driver.window_handles$
+    3. `Get Window Position`: retrieves the current position of the active window on the screen, returning the coordinates (x, y).
+        #Selenium : $driver.get_window_position()$
+    4. `Get Window Size`: fetches the current size (width and height) of the active window.
+        #Selenium : $driver.get_window_size()$
+    5. `Get Window Titles`: retrieves the titles of all open windows, allowing you to see their identifiers or content briefly based on their titles.
+    6. `Maximize Browser Window`: maximizes the active window to fill the entire screen.
+        #Selenium : $driver.maximize_window()$
+    6. `Minimize Browser Window`: minimizes the active window, reducing it to the taskbar.
+        #Selenium : $driver.minimize_window()$
+    7. `Set Window Position`: allows to set the position of the active window using specified x and y coordinates.
+        #Selenium : $driver.set_window_position(x, y)$
+    8. `Set Window Size`: sets the size of the active window to the specified width and height.
+        #Selenium : $driver.set_window_size(width, height)$:
+    9. `Switch Window`: allows you to change focus to a specified window by using its title or handle.
+        #Selenium : $driver.switch_to.window(window_handle)$ or $driver.switch_to.new_window('window')$ or $driver.switch_to.new_window('tab')$
+=================================================================================
+Q) What is the Page Object Model (POM)?
+Ans.)
+@ Definition:
+    - Provides a structured approach to manage the automation of web applications by representing each web page as a class, encapsulating the interactions with that page.
+    - Encourages the creation of an object repository for web UI elements.
+    - Helps in reducing code duplication, improving test maintenance, and enhancing readability by separating the test logic from the UI elements.
+
+@ Key Concepts
+    1. Page Representation: Each page of the application is represented as an object or a class. This class contains the locators (elements) and methods (actions) specific to that page. This abstraction allows for easy collaboration between developers and testers.
+    2. Encapsulation: By encapsulating the page elements and functionalities within a class, you can hide the implementation details and expose only the methods needed for interactions, making your test scripts cleaner and more abstract.
+    3. Reusability: Since the page objects are organized in classes, they can be reused across multiple test cases. This reduces code duplication and makes it easier to manage changes in the UI—the updates are made only in the page object instead of in every test case.
+    4. Improved Maintenance: If the structure or locators of a webpage change, you only need to update the corresponding page object. This minimizes the risk of breaking multiple test cases due to a single change in the UI.
+
+@ Implementing POM in Robot Framework:
+    1. Create Page Object Classes: Define a class for each page of your application. Each class will contain methods for element interactions and store locators for the web elements.
+    2. Keywords in Page Classes: Use Robot Framework's built-in capabilities to create keywords that abstract the actions performed on the web elements. These keywords will correspond to the methods defined in your page classes.
+    3. Importing Page Objects: In your Robot Framework test cases, you will import these page objects and use their keywords to perform the necessary actions on the web application.
+=================================================================================
+Q) How do you handle iframes? (Both selenium and Robotframework)
+Ans.)
+@ Selenium
+1. Switch to the iframe: switch the driver's focus to that iframe. This is done using the switchTo().frame() method. can switch using various identifiers such as the frame's name, ID, or a WebElement representing the iframe
+    a) Switch to iframe by index    : driver.switchTo().frame(0);
+    b) Return to main content       : driver.switchTo().defaultContent();
+    c) Switch to iframe by name     : driver.switchTo().frame("frameName");
+    d) Switch to iframe by ID       : driver.switchTo().frame("frameId");
+    e) Switch to iframe using WebElement    : WebElement iframe = driver.findElement(By.id("iframeId"));
+                                                driver.switchTo().frame(iframe);
+2. Interact with elements: can perform actions like clicking buttons, entering text, or retrieving information.
+3. Switch back to the main content: To switch back to the main document context use the switchTo().defaultContent() method, which will return the focus to the main page.
+
+@Robot
+    a) Switch to the first iframe by index      : Select Frame    0
+    b) switch to an iframe by name/ID           : Select Frame    iframe_name_or_id
+    c) switch by WebElement using a locator     : ${iframe}=    Get WebElement    tag=iframe
+                                                    Select Frame    ${iframe}
+    d) Switch back to the main content          :Unselect Frame
+=================================================================================
+Q) What are some common exceptions in Selenium WebDriver?
+Ans.)
+    1. NoSuchElementException: Thrown when an element could not be found.
+    2. TimeoutException: Thrown when a command does not complete in time.
+    3. ElementNotVisibleException: Thrown when an element is present but not visible.
+    4. StaleElementReferenceException: Thrown when a reference points to an element that is no longer attached to the DOM.
+    5. ElementNotInteractableException: Thrown when an element is present but not interactable.
+=================================================================================
+Q) How do you handle Selenium exceptions in Robot Framework ?
+Ans.)
+Handling Selenium exceptions in Robot Framework involves utilizing the built-in error handling capabilities that the framework provides.
+
+    1. Try/Except Structure: In Robot Framework, you can use the `Run Keyword And Ignore Error` keyword to handle exceptions. This allows your test to continue running even if an error occurs in a particular keyword.
+
+    2. Error Handling Keywords: After using `Run Keyword And Ignore Error`, you can check the outcome of your operation. The result will be a list containing the status and the error message if an exception occurred. You can store the result in a variable and then evaluate whether it was successful or not.
+
+<<< Example
+   ${result}  Run Keyword And Ignore Error  Click Button   my-button-id
+   ${status}  Set Variable  ${result}[0]
+   ${error}   Set Variable  ${result}[1]
+
+   Run Keyword If  '${status}' == 'FAIL'  Log  ${error}
+>>>
+    3. Logging: It’s essential to use the `Log` keyword to capture any errors that occur, which helps in debugging later.
+
+    4. other keywords
+        - Run Keyword And If: This keyword allows you to execute another keyword based on a condition. It can be used to handle specific exceptions by checking the outcome of a keyword execution and deciding subsequent actions.
+
+        - Run Keyword And Return Status: Similar to Run Keyword And Ignore Error, this keyword returns only the status (PASS/FAIL) of the executed keyword without the error message. It’s useful when you need a clean way to check success.
+
+        - Log To Console: You can use this keyword to print error messages directly to the console, which can be handy for real-time debugging when running tests.
+
+        - Capture Page Screenshot: If an error occurs during a Selenium operation, capturing a screenshot can be valuable for diagnosing the issue. The keyword Capture Page Screenshot can be used to save the current state of the application.
+
+        - Retry Keyword: To automatically retry a keyword if it fails, the Retry Keyword can be used. This is helpful if you expect transient issues that might not occur on subsequent attempts.
+=================================================================================
+Q) How do you implement a data-driven framework in Selenium?
+Ans.)
+You can implement a data-driven framework by:
+    1. Storing test data in external files such as CSV, Excel, or JSON.
+    2. Using libraries like `pandas` to read the data.
+    3. Iterating over data sets in your test cases to execute tests with different data sets.
+=================================================================================
+Q) What is Selenium Grid? How does it work?
+Ans.)
+Selenium Grid allows you to run tests on multiple machines and browsers in parallel. It consists of:
+    - Hub: The central point that receives test requests and distributes them to available nodes.
+    - Node: A machine that runs a browser instance and executes the tests.
+To set it up, you typically start the Hub and Nodes with command-line commands, and test scripts can be targeted to run on specific configurations.
+=================================================================================
+Q) How do you handle cookies in Selenium?
+Ans.)
+    Cookies are small pieces of data stored by the web browser that help remember user preferences, session information, and other data.
+
+    Types of Cookies:
+        Session Cookies: Temporary cookies that expire when the browser is closed.
+        Persistent Cookies: Cookies that remain on the user's device for a specified duration or until manually deleted.
+    Selenium Cookie Management:
+        Adding a Cookie: You can add a cookie to the browser using $driver.manage().add_cookie({"name": "cookie_name", "value": "cookie_value"})$.
+        Retrieving Cookies: Use $driver.manage().get_cookies()$ to retrieve all cookies associated with the current session.
+        Deleting a Cookie: You can delete a specific cookie by its name using $driver.manage().delete_cookie("cookie_name")$.
+        Deleting All Cookies: To clear all cookies in the browser session, you can use $driver.manage().delete_all_cookies()$.
+<<< Robot - selenium Library Keywords
+    Add Cookie    name=my_cookie    value=my_value              # Add a cookie
+    ${cookie} =    Get Cookie    my_cookie                      # Retrieve a cookie
+    ${cookies} =    Get Cookies                                 # List all cookies
+    Delete Cookie    my_cookie                                  # Delete a specific cookie
+>>>
+=================================================================================
+Q) How do you perform cross-browser testing ? (Both selenium and Robotframework)
+Ans.)
+- Selenium WebDriver allows automated testing of web applications across different browsers by using specific driver executables for each browser such as ChromeDriver, GeckoDriver, SafariDriver or EdgeDriver constructor methods. This can be done by iterating over a browser list using if Elif loop present with a try-finally method block.
+=================================================================================
+Q) What are some best practices for writing Selenium tests?
+Ans.)
+    1. Use Page Object Model.
+    2. Implement proper waits (explicit waits).
+    3. Organize your test structure (folder organization).
+    4. Keep tests maintainable and readable.
+    5. Avoid hardcoded values; use configuration files.
+    6. Log meaningful messages.
+    7. Clean up after tests (like closing browsers).
+=================================================================================
+Q) How do you handle mouse actions in Selenium?
+Ans.)
+Q) How do you handle mouse actions in Selenium?
+Ans.) To handle mouse actions in Selenium, you can use the Actions class, which provides methods for various mouse interactions like hover, click, and drag-and-drop.
+    Ex.
+    Actions actions = new Actions(driver);
+    WebElement element = driver.findElement(By.id("elementId"));
+    actions.moveToElement(element).perform(); // Hover over the element
+
+You can also use methods like click(), doubleClick(), dragAndDrop(), and others to perform mouse actions as needed.
+
+=================================================================================
+Q) How do you handle closing the second window of a browser in automation testing?
+Ans.)
+Q) How do you handle closing the second window of a browser in automation testing in Selenium?
+Ans.) To close the second window in Selenium, you can switch to that window using the switchTo().window() method, then call the close() method. Here’s an example in Java:
+
+// Store the current window handle
+String mainWindowHandle = driver.getWindowHandle();
+
+// Open a new window and perform actions
+// Switch to the second window
+for (String windowHandle : driver.getWindowHandles()) {
+    if (!windowHandle.equals(mainWindowHandle)) {
+        driver.switchTo().window(windowHandle);
+        break;
+    }
+}
+
+// Close the second window
+driver.close();
+
+// Switch back to the main window
+driver.switchTo().window(mainWindowHandle);
+=================================================================================
+Q) Differentiate between XPath and CSS selectors.
+Ans.)
+- XPath: A powerful query language that allows complex queries and navigations through the XML structure of the HTML document. It can traverse the DOM.
+
+- CSS Selectors: A simpler and faster way to find elements based on CSS properties. It's generally more performant than XPath for styling purposes.
+=================================================================================
+Q) What is the syntax for a LinkText XPath locator?
+Ans.)
+The syntax for a link text XPath locator is:
+    driver.findelement(By.XPATH, "//a[text()='Link Text']")
+
+Or for partial link text:
+    driver.find_element(By.XPATH, "//a[contains(text(), 'Partial Link Text')]")
+=================================================================================
+Q) What changes or setups do you perform before starting execution in your framework?
+Ans.)
+    1. Configure driver settings: Paths, browser options, etc.
+    2. Setup Test Environment: URLs, databases, and configurations.
+    3. Ensure dependencies are installed: Libraries, packages, etc.
+    4. Load test data: CSV, Excel, or other data sources for data-driven tests.
+    5. Configure logging: Set up logging to capture test results and errors.
+=================================================================================
+Q) How often do you trigger regression test scripts? How do you manage them in your repository?
+Ans.)
+Regression test scripts are typically triggered:
+    - After any code changes in the application to ensure existing functionalities work.
+    - Regularly scheduled using Continuous Integration/Continuous Deployment (CI/CD) processes.
+To manage them:
+    - Organize tests into a version-controlled repository (e.g., Git).
+    - Use branches for different testing cycles.
+    - Tag releases for easy reference in future tests
+=================================================================================
+Q) How would you fetch the text from a text box in Selenium?
+Ans.)
+	- Use the Get Text keyword from the SeleniumLibrary.
+	- This process involves locating the element representing the text box and then retrieving its value.
+	- Use the Get Value keyword to fetch the text from the input field.
+Note that Get Text is used for getting visible text from elements like labels or divs, while Get Value is more appropriate for input fields.
+
+# Locate the text box element (for example, using its ID)
+text_box = driver.find_element(By.ID, "textboxId")
+
+# Fetch the text from the text box
+text_box_value = text_box.get_attribute("value")
+
+# Print the value
+print("Text in the text box:", text_box_value)
+=================================================================================
+Q) What is the difference between checked and unchecked exceptions?
+Ans.)
+	Checked Exceptions: These are exceptions that must be either caught or declared in the method signature. They are checked at compile time and usually relate to external factors (e.g., IOException, SQLException).
+
+	Unchecked Exceptions: These do not need to be explicitly handled or declared and are not checked at compile time. They generally indicate programming errors (e.g., NullPointerException, ArrayIndexOutOfBoundsException)
+=================================================================================
+Q) If an XPath selects two elements on a webpage, does findElement throw an exception?
+Ans.)
+	In Selenium, if findElement used with an XPath that selects multiple elements, it will not throw an exception. Instead, findElement will return the first matching element it finds in the DOM.
+	- If wanted to retrieve all matching elements, one should use findElements. This method will return a list of all elements matching the XPath, and if no elements are found, it will return an empty list without throwing an exception.
+=================================================================================
+Q) What is an “Element click intercepted” exception, and how do you fix it?
+Ans.)
+     - The "Element click intercepted" exception in Selenium occurs when the click action on an element is obstructed by another element (like a modal, tooltip, or overlay) in the DOM, preventing the intended click from being executed.
+@ How to Fix It:
+    1. Wait for Visibility: Use `WebDriverWait` to ensure the element is clickable.
+    2. Scroll into View: Scroll the element into view with JavaScript.
+    3. Check for Overlays: Ensure no overlays or pop-ups are blocking the element. might need to close or wait for these to disappear.
+    4. Use JavaScript Click: As a workaround, use JavaScript to perform the click.
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+=================================================================================
+Q) What are relative locators in Selenium?
+Ans.)
+    - Relative locators in Selenium allow you to find elements based on their position relative to other elements instead of using traditional selectors.
+    - Key features include:
+        Proximity: Locate elements visually or structurally related.
+        Methods: Use methods like `above()`, `below()`, `toLeftOf()`, `toRightOf()`, and `near()`.
+    - Relative locators enhance robustness and maintainability when dealing with a layout where the absolute positions of elements may change, or when working with frameworks that generate HTML dynamically.
+    - Improved Readability: The code can be easier to understand since it describes the position relations rather than exact paths.
+    - Increased Stability: Reduces dependency on specific attributes which may change, leading to more robust tests.
+=================================================================================
+Q) How would you conclude that a login page is user-friendly?
+Ans.)
+    - A user-friendly login page can be assessed based on:
+    1. Simplicity: Clear layout and labels.
+    2. Accessibility: Navigable using a keyboard and screen reader-friendly.
+    3. Error Handling: Clear, constructive feedback on input errors.
+    4. Visual Design: Appealing, readable, and contrasting design.
+    5. Auto-Fill and Suggestions: Support for autofill and guidance.
+    6. Security Indicators: Visible signs of security.
+    7. Consistency: Uniform design with the rest of the site.
+    8. Mobile Responsiveness: Good functionality on various devices.
+    9. Loading Speed: Fast loading time.
+    10. Help Options: Easy access to support and FAQs.
+=================================================================================
+Q) What are 5 points you consider when writing a good test case?
+Ans.)
+Five key points for effective test cases:
+    1. Clarity: Clear title and straightforward steps.
+    2. Unique Identifier: Assign unique IDs for traceability.
+    3. Preconditions: Specify necessary setup conditions.
+    4. Expected Results: Define measurable outcomes to evaluate success.
+    5. Reusability: Write modular, reusable test cases.
+=================================================================================
+Q) In what cases would you require fluent waits?
+Ans.)
+    - Fluent waits are beneficial in the following scenarios:
+        1. Dynamic Elements: Wait for dynamically loading elements.
+        2. Variable Load Times: Adjust wait times for real-time conditions.
+        3. Element State Changes: Ensure correct state before actions.
+        4. Avoiding Flaky Tests: Reduce dependency on fixed waits.
+        5. Polling for Conditions: Check multiple conditions collectively.
+        6. Timeout Management: Configure wait settings flexibly.
+        7. Complex UI Changes: Handle animations and transitions smoothly.
+=================================================================================
+Q) How will you handle dropdown in Selenium?
+Ans.) To handle dropdowns in Selenium, you can use the Select class, which provides methods to interact with <select> elements. You can select options by visible text, index, or value using methods like selectByVisibleText(), selectByIndex(), or selectByValue().
+=================================================================================
+Q) How to maximize the screen in Selenium?
+Ans.) To maximize the browser window in Selenium, you can use the manage().window().maximize() method.
+driver.manage().window().maximize();
+=================================================================================
+Q) How to take a screenshot in Selenium?
+Ans.) To take a screenshot in Selenium, you can use the TakesScreenshot interface, which provides the getScreenshotAs() method. Here’s an example in Java:
+
+File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+FileUtils.copyFile(screenshot, new File("path/to/screenshot.png"));
+=================================================================================

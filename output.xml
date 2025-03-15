@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.8.0 on win32)" generated="2025-03-13T13:38:35.594538" rpa="false" schemaversion="5">
+<suite id="s1" name="RobotFramework Python" source="C:\Users\APisal\PycharmProjects\RobotFramework_Python">
+<suite id="s1-s1" name="Mini Projects" source="C:\Users\APisal\PycharmProjects\RobotFramework_Python\mini_projects">
+<suite id="s1-s1-s1" name="Database" source="C:\Users\APisal\PycharmProjects\RobotFramework_Python\mini_projects\Database">
+<suite id="s1-s1-s1-s1" name="Database Tests" source="C:\Users\APisal\PycharmProjects\RobotFramework_Python\mini_projects\Database\database_tests.robot">
+<test id="s1-s1-s1-s1-t1" name="Scenario: Connect to the database" line="6">
+<kw name="Given I connect to the database">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<msg time="2025-03-13T13:38:35.757510" level="FAIL">Recursive execution stopped.</msg>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.757510" elapsed="0.015637">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.022649">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.031659">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.750498" elapsed="0.031659">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.040669">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.047679">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.741488" elapsed="0.047679">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.725854" elapsed="0.063313">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.719329" elapsed="0.069838">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.711322" elapsed="0.077845">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.710571" elapsed="0.078596">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.090643">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>sqlite://${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<arg>${DB_NAME}</arg>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</kw>
+<kw name="Then I should successfully connect to the database">
+<status status="NOT RUN" start="2025-03-13T13:38:35.804806" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-03-13T13:38:35.698524" elapsed="0.106282">Recursive execution stopped.</status>
+</test>
+<status status="FAIL" start="2025-03-13T13:38:35.656825" elapsed="0.147981"/>
+</suite>
+<status status="FAIL" start="2025-03-13T13:38:35.646313" elapsed="0.158493"/>
+</suite>
+<status status="FAIL" start="2025-03-13T13:38:35.646313" elapsed="0.158493"/>
+</suite>
+<status status="FAIL" start="2025-03-13T13:38:35.600139" elapsed="0.204667"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="RobotFramework Python" id="s1" pass="0" fail="1" skip="0">RobotFramework Python</stat>
+<stat name="Mini Projects" id="s1-s1" pass="0" fail="1" skip="0">RobotFramework Python.Mini Projects</stat>
+<stat name="Database" id="s1-s1-s1" pass="0" fail="1" skip="0">RobotFramework Python.Mini Projects.Database</stat>
+<stat name="Database Tests" id="s1-s1-s1-s1" pass="0" fail="1" skip="0">RobotFramework Python.Mini Projects.Database.Database Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-13T13:38:35.392530" level="WARN">Error in file 'C:\Users\APisal\PycharmProjects\RobotFramework_Python\mini_projects\Database\Keywords.robot' on line 16: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-03-13T13:38:35.662333" level="WARN">Error in file 'C:\Users\APisal\PycharmProjects\RobotFramework_Python\mini_projects\Database\Keywords.robot' on line 16: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

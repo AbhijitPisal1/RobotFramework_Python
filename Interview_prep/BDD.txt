@@ -1,0 +1,81 @@
+*** Documentation ***
+This file contains information about BDD in Q&A form
+=================================================================================
+Q) What is BDD, and how does it differ from TDD (Test-Driven Development)?
+Answer:
+    TDD (Test-Driven Development):
+    In TDD, we write tests before coding. This approach ensures that code is tested during development, leading to simpler design and early bug detection.
+    The cycle is: write a failing test, implement the code, and refactor.
+
+    BDD (Behavior-Driven Development):
+    BDD focuses on collaboration among developers, QA, and non-technical stakeholders.
+    Scenarios are written in natural language (like Gherkin) to describe expected behavior.
+    It ensures that software meets user needs and improves communication.
+
+    ATDD (Acceptance Test-Driven Development):
+    ATDD involves creating acceptance tests before starting development.
+    It ensures all parties agree on the requirements upfront.
+    This approach clarifies expectations and defines what "done" means for features.
+=================================================================================
+Q) What is the importance of the Given-When-Then structure in BDD?
+Answer:
+ - The Given-When-Then structure is a core concept of BDD that helps define clear scenarios.
+ - It improves readability, maintainability, and communication between team members.
+ - It helps break down complex features into manageable and understandable steps
+
+Syntax:
+    Given: Sets up the initial context or state.
+    When: Defines the action or event that triggers the behavior.
+    Then: States the expected outcome or result after the action.
+Example :
+    *** Test Cases ***
+    Valid Login Scenario
+        Given the user is on the login page
+        When the user enters valid credentials
+        Then the user should be redirected to the homepage
+=================================================================================
+Q) What are some advantages of using BDD for test automation in Robot Framework?
+Answer:
+	Improved Collaboration using natural language test cases
+	living documentation that automatically gets updated as the code evolves
+    ensures that all critical user scenarios are covered in the test cases
+	natural language structure makes tests more readable and maintainable Tests
+=================================================================================
+Q) How do you organize BDD scenarios and tests in Robot Framework to them modular and maintainable?
+Answer:
+In Robot Framework, organize your BDD-style tests using
+•	Tags: Use tags like @smoke, @regression, @login, etc., to categorize tests for easy filtering and execution.
+•	Keywords: Break down your tests into reusable keywords for each Given-When-Then step.
+•	Variables: Use variables to make your tests more flexible and reusable across different test cases.
+=================================================================================
+Q) What is a hook in BDD and how is it used in robot framework?
+Answer:
+Behavior-Driven Development (BDD):
+    - Special block of code  or methods that is automatically executed at specific points during execution
+    - Executed typically before or after a test scenario, allowing performing setup, cleanup and reporting tasks
+    - Can be run across multiple test cases, without repeating the code in each scenario itself.
+    - Defined as methods annotated with keywords like "@Before" and "@After" to specify when they should run.
+Robot Framework :
+    - Test Setup and Test Teardown can be considered as a form of hook in Robot Framework
+    - These can be defined globally in the Settings section to apply them to all test cases or individually to specific test cases
+    - Declared as keywords like “Test Setup” and "Test Teardown" to specify when they should run
+=================================================================================
+Q) What are the key features of Robot Framework that make it suitable for BDD testing?
+Answer: key features provided by Robot Framework are
+    - Readable, Gherkin-style syntax for clear scenarios.
+    - Keyword-driven approach for reusable and modular steps.
+    - Support for SeleniumLibrary and other external libraries for web, API, and database testing.
+    - Clear separation of steps in BDD scenarios.
+    - Built-in reports, logs, and integration with CI/CD for continuous testing.
+    - Collaboration-friendly for both technical and non-technical stakeholders.
+=================================================================================
+Q) How do you handle data-driven testing in Robot Framework for BDD scenarios?
+Answer:
+    In Robot Framework, data-driven testing can be handled efficiently by utilizing variables, test case templates, and For Loops to execute the same test scenario with different sets of input data.
+    This allows you to test multiple inputs and expected outcomes without duplicating the test logic for each scenario.
+    1. Using Variables to Store Data Sets and loop data through test during test execution.
+    You can either define your variables in the Variables section or use external data files (e.g., .csv or .json) to load test data.
+    2. Using For Loops for Iterating over Data Sets and executing the same steps for each data set.
+    This allows the same BDD scenario to be executed with different inputs.
+    3. Test template
+=================================================================================

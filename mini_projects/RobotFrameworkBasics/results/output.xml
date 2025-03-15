@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.8.0 on win32)" generated="2025-02-13T15:18:21.728224" rpa="false" schemaversion="5">
+<suite id="s1" name="Collections List" source="C:\Users\APisal\PycharmProjects\RobotFramework_Python\Tests\RobotFrameworkBasics\Collections_List.robot">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2025-02-13T15:18:21.836742" level="INFO">This Suite deals with test cases for List objects.</msg>
+<arg>This Suite deals with test cases for List objects.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.836742" elapsed="0.000000"/>
+</kw>
+<test id="s1-t1" name="Test for creating a list" line="10">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">${list_1} = ['Apple', 'Banana']</msg>
+<var>${list_1}</var>
+<arg>Apple</arg>
+<arg>Banana</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 2 and it contains following items:
+0: Apple
+1: Banana</msg>
+<arg>${list_1}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">@{list_2} = [ Mango | Orange ]</msg>
+<var>@{list_2}</var>
+<arg>Mango</arg>
+<arg>Orange</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 2 and it contains following items:
+0: Mango
+1: Orange</msg>
+<arg>${list_2}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.836742" elapsed="0.002511"/>
+</test>
+<test id="s1-t2" name="Test for Append To List keyword" line="17">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">${list1} = ['Apple', 'Banana']</msg>
+<var>${list1}</var>
+<arg>Apple</arg>
+<arg>Banana</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 2 and it contains following items:
+0: Apple
+1: Banana</msg>
+<arg>${list1}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list1}</arg>
+<arg>Mango</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 3 and it contains following items:
+0: Apple
+1: Banana
+2: Mango</msg>
+<arg>${list1}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</test>
+<test id="s1-t3" name="Test for Insert Into List keyword" line="24">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">${items} = ['test1', 'test3', 'test4', 'test2']</msg>
+<var>${items}</var>
+<arg>test1</arg>
+<arg>test3</arg>
+<arg>test4</arg>
+<arg>test2</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 4 and it contains following items:
+0: test1
+1: test3
+2: test4
+3: test2</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Insert Into List" owner="Collections">
+<arg>${items}</arg>
+<arg>0</arg>
+<arg>test0</arg>
+<doc>Inserts ``value`` into ``list`` to the position specified with ``index``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 5 and it contains following items:
+0: test0
+1: test1
+2: test3
+3: test4
+4: test2</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Insert Into List" owner="Collections">
+<arg>${items}</arg>
+<arg>-1</arg>
+<arg>test6</arg>
+<doc>Inserts ``value`` into ``list`` to the position specified with ``index``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 6 and it contains following items:
+0: test0
+1: test1
+2: test3
+3: test4
+4: test6
+5: test2</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</test>
+<test id="s1-t4" name="Test for Set List Value keyword" line="33">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">${table} = ['a', 'b', 'c', 'd', 'e', 'f']</msg>
+<var>${table}</var>
+<arg>a</arg>
+<arg>b</arg>
+<arg>c</arg>
+<arg>d</arg>
+<arg>e</arg>
+<arg>f</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 6 and it contains following items:
+0: a
+1: b
+2: c
+3: d
+4: e
+5: f</msg>
+<arg>${table}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Set List Value" owner="Collections">
+<arg>${table}</arg>
+<arg>0</arg>
+<arg>1</arg>
+<doc>Sets the value of ``list`` specified by ``index`` to the given ``value``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 6 and it contains following items:
+0: 1
+1: b
+2: c
+3: d
+4: e
+5: f</msg>
+<arg>${table}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Set List Value" owner="Collections">
+<arg>${table}</arg>
+<arg>-1</arg>
+<arg>100</arg>
+<doc>Sets the value of ``list`` specified by ``index`` to the given ``value``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 6 and it contains following items:
+0: 1
+1: b
+2: c
+3: d
+4: e
+5: 100</msg>
+<arg>${table}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</test>
+<test id="s1-t5" name="Test for Combine Lists keyword" line="41">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">${list_1} = ['1', '2', '3', '4', '5']</msg>
+<var>${list_1}</var>
+<arg>1</arg>
+<arg>2</arg>
+<arg>3</arg>
+<arg>4</arg>
+<arg>5</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 5 and it contains following items:
+0: 1
+1: 2
+2: 3
+3: 4
+4: 5</msg>
+<arg>${list_1}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">${list_2} = ['a', 'b', 'c', 'd', 'e']</msg>
+<var>${list_2}</var>
+<arg>a</arg>
+<arg>b</arg>
+<arg>c</arg>
+<arg>d</arg>
+<arg>e</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.839253" level="INFO">List length is 5 and it contains following items:
+0: a
+1: b
+2: c
+3: d
+4: e</msg>
+<arg>${list_2}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.000000"/>
+</kw>
+<kw name="Combine Lists" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">${combined_list} = ['1', '2', '3', '4', '5', 'a', 'b', 'c', 'd', 'e']</msg>
+<var>${combined_list}</var>
+<arg>${list_1}</arg>
+<arg>${list_2}</arg>
+<doc>Combines the given ``lists`` together and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.015641"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">List length is 10 and it contains following items:
+0: 1
+1: 2
+2: 3
+3: 4
+4: 5
+5: a
+6: b
+7: c
+8: d
+9: e</msg>
+<arg>${combined_list}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Combine Lists" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">${combined_list2} = ['a', 'b', 'c', 'd', 'e', '1', '2', '3', '4', '5']</msg>
+<var>${combined_list2}</var>
+<arg>${list_2}</arg>
+<arg>${list_1}</arg>
+<doc>Combines the given ``lists`` together and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">List length is 10 and it contains following items:
+0: a
+1: b
+2: c
+3: d
+4: e
+5: 1
+6: 2
+7: 3
+8: 4
+9: 5</msg>
+<arg>${combined_list2}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.839253" elapsed="0.015641"/>
+</test>
+<test id="s1-t6" name="Test for Sort list keyword" line="53">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">${list_1} = ['4', '2', '1', '2', '3', '5']</msg>
+<var>${list_1}</var>
+<arg>4</arg>
+<arg>2</arg>
+<arg>1</arg>
+<arg>2</arg>
+<arg>3</arg>
+<arg>5</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Sort List" owner="Collections">
+<arg>${list_1}</arg>
+<doc>Sorts the given list in place.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">List length is 6 and it contains following items:
+0: 1
+1: 2
+2: 2
+3: 3
+4: 4
+5: 5</msg>
+<arg>${list_1}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">${list_2} = ['z', 'a', 'b', 'd', 'b', 'ca', 'cd', 'ce', 'cat', 'car']</msg>
+<var>${list_2}</var>
+<arg>z</arg>
+<arg>a</arg>
+<arg>b</arg>
+<arg>d</arg>
+<arg>b</arg>
+<arg>ca</arg>
+<arg>cd</arg>
+<arg>ce</arg>
+<arg>cat</arg>
+<arg>car</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Sort List" owner="Collections">
+<arg>${list_2}</arg>
+<doc>Sorts the given list in place.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">List length is 10 and it contains following items:
+0: a
+1: b
+2: b
+3: ca
+4: car
+5: cat
+6: cd
+7: ce
+8: d
+9: z</msg>
+<arg>${list_2}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">${list_3} = ['7', 'a', '2', 'z', 'p']</msg>
+<var>${list_3}</var>
+<arg>7</arg>
+<arg>a</arg>
+<arg>2</arg>
+<arg>z</arg>
+<arg>p</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Sort List" owner="Collections">
+<arg>${list_3}</arg>
+<doc>Sorts the given list in place.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">List length is 5 and it contains following items:
+0: 2
+1: 7
+2: a
+3: p
+4: z</msg>
+<arg>${list_3}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</test>
+<test id="s1-t7" name="Test for Reverse List keyword" line="65">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">${items} = ['test1', 'test5', 'test3', 'test4', 'test2']</msg>
+<var>${items}</var>
+<arg>test1</arg>
+<arg>test5</arg>
+<arg>test3</arg>
+<arg>test4</arg>
+<arg>test2</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.854894" level="INFO">List length is 5 and it contains following items:
+0: test1
+1: test5
+2: test3
+3: test4
+4: test2</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.000000"/>
+</kw>
+<kw name="Reverse List" owner="Collections">
+<arg>${items}</arg>
+<doc>Reverses the given list in place.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.867906" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.867906" level="INFO">List length is 5 and it contains following items:
+0: test2
+1: test4
+2: test3
+3: test5
+4: test1</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.867906" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.854894" elapsed="0.013012"/>
+</test>
+<test id="s1-t8" name="Test for Extracting from List" line="71">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${alphabets} = ['a', 'a', 'd', 'b', 'c', 'a', 'c', 'd']</msg>
+<var>${alphabets}</var>
+<arg>a</arg>
+<arg>a</arg>
+<arg>d</arg>
+<arg>b</arg>
+<arg>c</arg>
+<arg>a</arg>
+<arg>c</arg>
+<arg>d</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${a_count} = 3</msg>
+<var>${a_count}</var>
+<arg>${alphabets}</arg>
+<arg>a</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${z_count} = 0</msg>
+<var>${z_count}</var>
+<arg>${alphabets}</arg>
+<arg>z</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${A_count} = 0</msg>
+<var>${A_count}</var>
+<arg>${alphabets}</arg>
+<arg>A</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${character} = a</msg>
+<var>${character}</var>
+<arg>${alphabets}</arg>
+<arg>1</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${character} = b</msg>
+<var>${character}</var>
+<arg>${alphabets}</arg>
+<arg>3</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${character} = d</msg>
+<var>${character}</var>
+<arg>${alphabets}</arg>
+<arg>-1</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get Index From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${index} = 3</msg>
+<var>${index}</var>
+<arg>${alphabets}</arg>
+<arg>b</arg>
+<doc>Returns the index of the first occurrence of the ``value`` on the list.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get Index From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${index} = 0</msg>
+<var>${index}</var>
+<arg>${alphabets}</arg>
+<arg>a</arg>
+<doc>Returns the index of the first occurrence of the ``value`` on the list.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get Index From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${index} = 2</msg>
+<var>${index}</var>
+<arg>${alphabets}</arg>
+<arg>d</arg>
+<doc>Returns the index of the first occurrence of the ``value`` on the list.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get Slice From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${slice1} = ['a', 'd']</msg>
+<var>${slice1}</var>
+<arg>${alphabets}</arg>
+<arg>1</arg>
+<arg>3</arg>
+<doc>Returns a slice of the given list between ``start`` and ``end`` indexes.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">List length is 2 and it contains following items:
+0: a
+1: d</msg>
+<arg>${slice1}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get Slice From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${slice2} = ['b', 'c', 'a', 'c', 'd']</msg>
+<var>${slice2}</var>
+<arg>${alphabets}</arg>
+<arg>3</arg>
+<doc>Returns a slice of the given list between ``start`` and ``end`` indexes.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">List length is 5 and it contains following items:
+0: b
+1: c
+2: a
+3: c
+4: d</msg>
+<arg>${slice2}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Get Slice From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">${slice3} = ['a', 'a', 'd']</msg>
+<var>${slice3}</var>
+<arg>${alphabets}</arg>
+<arg>end=3</arg>
+<doc>Returns a slice of the given list between ``start`` and ``end`` indexes.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.873160" level="INFO">List length is 3 and it contains following items:
+0: a
+1: a
+2: d</msg>
+<arg>${slice3}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.871126" elapsed="0.002034"/>
+</test>
+<test id="s1-t9" name="Test for convert tuple to list" line="98">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.886670" level="INFO">${tuple_val} = (1, 2, 3)</msg>
+<var>${tuple_val}</var>
+<arg>(1, 2, 3)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.886670" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.886670" level="INFO">(1, 2, 3)</msg>
+<arg>${tuple_val}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.886670" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.886670" level="INFO">${type} = &lt;class 'tuple'&gt;</msg>
+<var>${type}</var>
+<arg>type($tuple_val)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.886670" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.886670" level="INFO">Argument types are:
+&lt;class 'type'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${type}</arg>
+<arg>&lt;class 'tuple'&gt;</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.886670" elapsed="0.000000"/>
+</kw>
+<kw name="Convert To List" owner="Collections">
+<msg time="2025-02-13T15:18:21.886670" level="INFO">${list} = [1, 2, 3]</msg>
+<var>${list}</var>
+<arg>${tuple_val}</arg>
+<doc>Converts the given ``item`` to a Python ``list`` type.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.886670" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.886670" level="INFO">List length is 3 and it contains following items:
+0: 1
+1: 2
+2: 3</msg>
+<arg>${list}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.886670" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.899184" level="INFO">${type} = &lt;class 'list'&gt;</msg>
+<var>${type}</var>
+<arg>type($list)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.899184" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">Argument types are:
+&lt;class 'type'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${type}</arg>
+<arg>&lt;class 'list'&gt;</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.873160" elapsed="0.029535"/>
+</test>
+<test id="s1-t10" name="Test for convert set to list" line="108">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">${set_val} = ('apple', 'banana', 'mango')</msg>
+<var>${set_val}</var>
+<arg>('apple', 'banana', 'mango')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">('apple', 'banana', 'mango')</msg>
+<arg>${set_val}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">${type} = &lt;class 'tuple'&gt;</msg>
+<var>${type}</var>
+<arg>type($set_val)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">Argument types are:
+&lt;class 'type'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${type}</arg>
+<arg>&lt;class 'tuple'&gt;</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<kw name="Convert To List" owner="Collections">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">${list} = ['apple', 'banana', 'mango']</msg>
+<var>${list}</var>
+<arg>${set_val}</arg>
+<doc>Converts the given ``item`` to a Python ``list`` type.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">List length is 3 and it contains following items:
+0: apple
+1: banana
+2: mango</msg>
+<arg>${list}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.902695" level="INFO">${type} = &lt;class 'list'&gt;</msg>
+<var>${type}</var>
+<arg>type($list)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.918333" level="INFO">Argument types are:
+&lt;class 'type'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${type}</arg>
+<arg>&lt;class 'list'&gt;</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.918333" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.902695" elapsed="0.015638"/>
+</test>
+<test id="s1-t11" name="Test for convert string to list" line="118">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.918333" level="INFO">${string} = Good Morning</msg>
+<var>${string}</var>
+<arg>Good Morning</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.918333" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.918333" level="INFO">Good Morning</msg>
+<arg>${string}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.918333" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.918333" level="INFO">${type} = &lt;class 'str'&gt;</msg>
+<var>${type}</var>
+<arg>type($string)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.918333" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.918333" level="INFO">Argument types are:
+&lt;class 'type'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${type}</arg>
+<arg>&lt;class 'str'&gt;</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.918333" elapsed="0.000000"/>
+</kw>
+<kw name="Convert To List" owner="Collections">
+<msg time="2025-02-13T15:18:21.918333" level="INFO">${list} = ['G', 'o', 'o', 'd', ' ', 'M', 'o', 'r', 'n', 'i', 'n', 'g']</msg>
+<var>${list}</var>
+<arg>${string}</arg>
+<doc>Converts the given ``item`` to a Python ``list`` type.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.918333" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">List length is 12 and it contains following items:
+0: G
+1: o
+2: o
+3: d
+4:  
+5: M
+6: o
+7: r
+8: n
+9: i
+10: n
+11: g</msg>
+<arg>${list}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${type} = &lt;class 'list'&gt;</msg>
+<var>${type}</var>
+<arg>type($list)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">Argument types are:
+&lt;class 'type'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${type}</arg>
+<arg>&lt;class 'list'&gt;</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.918333" elapsed="0.016029"/>
+</test>
+<test id="s1-t12" name="Test for Copy List keyword" line="128">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${original_list} = ['item1', 'item2', 'item3', 'item4']</msg>
+<var>${original_list}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>item4</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Copy List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${copied_list} = ['item1', 'item2', 'item3', 'item4']</msg>
+<var>${copied_list}</var>
+<arg>${original_list}</arg>
+<doc>Returns a copy of the given list.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${original_list}</arg>
+<arg>item5</arg>
+<arg>item6</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">List length is 6 and it contains following items:
+0: item1
+1: item2
+2: item3
+3: item4
+4: item5
+5: item6</msg>
+<arg>${original_list}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${copied_list}</arg>
+<arg>item10</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">List length is 5 and it contains following items:
+0: item1
+1: item2
+2: item3
+3: item4
+4: item10</msg>
+<arg>${copied_list}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</test>
+<test id="s1-t13" name="Test for Deleting from list" line="138">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${items} = ['item1', 'item2', 'item3', 'item4', 'item5']</msg>
+<var>${items}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>item4</arg>
+<arg>item5</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">List length is 5 and it contains following items:
+0: item1
+1: item2
+2: item3
+3: item4
+4: item5</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Remove From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${removed_items} = item3</msg>
+<var>${removed_items}</var>
+<arg>${items}</arg>
+<arg>2</arg>
+<doc>Removes and returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">List length is 4 and it contains following items:
+0: item1
+1: item2
+2: item4
+3: item5</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Remove From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${removed_items} = item5</msg>
+<var>${removed_items}</var>
+<arg>${items}</arg>
+<arg>-1</arg>
+<doc>Removes and returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">List length is 3 and it contains following items:
+0: item1
+1: item2
+2: item4</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Remove Values From List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${removed_items} = None</msg>
+<var>${removed_items}</var>
+<arg>${items}</arg>
+<arg>item1</arg>
+<arg>item4</arg>
+<doc>Removes all occurrences of given ``values`` from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">List has one item:
+item2</msg>
+<arg>${items}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</test>
+<test id="s1-t14" name="Test for List Should Contain Sub List assertion" line="153">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${list1} = ['item1', 'item2', 'item3', 'item4']</msg>
+<var>${list1}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>item4</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${sub_list1} = ['item1', 'item3']</msg>
+<var>${sub_list1}</var>
+<arg>item1</arg>
+<arg>item3</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.934362" level="INFO">${sub_list2} = ['ITEM2']</msg>
+<var>${sub_list2}</var>
+<arg>ITEM2</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Contain Sub List" owner="Collections">
+<arg>${list1}</arg>
+<arg>${sub_list1}</arg>
+<doc>Fails if not all elements in ``list2`` are found in ``list1``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Contain Sub List" owner="Collections">
+<arg>${list1}</arg>
+<arg>${sub_list2}</arg>
+<arg>ignore_case=True</arg>
+<doc>Fails if not all elements in ``list2`` are found in ``list1``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.934362" elapsed="0.015640"/>
+</test>
+<test id="s1-t15" name="Test for List Should Contain Value assertion" line="163">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.950002" level="INFO">${list1} = ['item1', 'item2', 'item3', 'item4']</msg>
+<var>${list1}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>item4</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Contain Value" owner="Collections">
+<arg>${list1}</arg>
+<arg>item3</arg>
+<doc>Fails if the ``value`` is not found from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Contain Value" owner="Collections">
+<arg>${list1}</arg>
+<arg>ITEM2</arg>
+<arg>ignore_case=True</arg>
+<doc>Fails if the ``value`` is not found from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</test>
+<test id="s1-t16" name="Test for List Should Not Contain Value assertion" line="169">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.950002" level="INFO">${list1} = ['item1', 'item2', 'item3', 'item4']</msg>
+<var>${list1}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>item4</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Not Contain Value" owner="Collections">
+<arg>${list1}</arg>
+<arg>item5</arg>
+<doc>Fails if the ``value`` is found from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Not Contain Value" owner="Collections">
+<arg>${list1}</arg>
+<arg>ITEM2</arg>
+<doc>Fails if the ``value`` is found from ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</test>
+<test id="s1-t17" name="Test for List Should Not Contain Duplicates assertion" line="175">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.950002" level="INFO">${list1} = ['item1', 'item2', 'item3', 'item4']</msg>
+<var>${list1}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>item4</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Not Contain Duplicates" owner="Collections">
+<arg>${list1}</arg>
+<doc>Fails if any element in the ``list`` is found from it more than once.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.950002" level="INFO">${list2} = ['item1', 'item2', 'item3', 'ITEM2']</msg>
+<var>${list2}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>ITEM2</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<kw name="List Should Not Contain Duplicates" owner="Collections">
+<arg>${list2}</arg>
+<doc>Fails if any element in the ``list`` is found from it more than once.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.000000"/>
+</test>
+<test id="s1-t18" name="Test for Lists Should Be Equal assertions" line="186">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.962022" level="INFO">${list1} = ['item1', 'item2', 'item3']</msg>
+<var>${list1}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.962022" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.966061" level="INFO">${list2} = ['item1', 'item2', 'item3']</msg>
+<var>${list2}</var>
+<arg>item1</arg>
+<arg>item2</arg>
+<arg>item3</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Lists Should Be Equal" owner="Collections">
+<arg>${list1}</arg>
+<arg>${list2}</arg>
+<doc>Fails if given lists are unequal.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.966061" level="INFO">${list3} = ['item1', 'ITEM2', 'ITEM3']</msg>
+<var>${list3}</var>
+<arg>item1</arg>
+<arg>ITEM2</arg>
+<arg>ITEM3</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Lists Should Be Equal" owner="Collections">
+<arg>${list1}</arg>
+<arg>${list3}</arg>
+<arg>ignore_case=True</arg>
+<doc>Fails if given lists are unequal.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.966061" level="INFO">${list4} = ['item2', 'item3', 'item1']</msg>
+<var>${list4}</var>
+<arg>item2</arg>
+<arg>item3</arg>
+<arg>item1</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Lists Should Be Equal" owner="Collections">
+<arg>${list1}</arg>
+<arg>${list4}</arg>
+<arg>ignore_order=True</arg>
+<doc>Fails if given lists are unequal.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.966061" level="INFO">${tuple} = ('a', 'b', 'c')</msg>
+<var>${tuple}</var>
+<arg>('a', 'b', 'c')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.966061" level="INFO">${items} = ['a', 'b', 'c']</msg>
+<var>${items}</var>
+<arg>a</arg>
+<arg>b</arg>
+<arg>c</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<kw name="Lists Should Be Equal" owner="Collections">
+<arg>${tuple}</arg>
+<arg>${items}</arg>
+<doc>Fails if given lists are unequal.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.966061" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.950002" elapsed="0.016059"/>
+</test>
+<test id="s1-t19" name="Test for remove deuplicates" line="203">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-02-13T15:18:21.973074" level="INFO">${list1} = ['1', '2', '3', '4', '2', '1', '2']</msg>
+<var>${list1}</var>
+<arg>1</arg>
+<arg>2</arg>
+<arg>3</arg>
+<arg>4</arg>
+<arg>2</arg>
+<arg>1</arg>
+<arg>2</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.973074" elapsed="0.000000"/>
+</kw>
+<kw name="Remove Duplicates" owner="Collections">
+<msg time="2025-02-13T15:18:21.973074" level="INFO">3 duplicates removed.</msg>
+<msg time="2025-02-13T15:18:21.973074" level="INFO">${removed_duplicates} = ['1', '2', '3', '4']</msg>
+<var>${removed_duplicates}</var>
+<arg>${list1}</arg>
+<doc>Returns a list without duplicates based on the given ``list``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.973074" elapsed="0.000000"/>
+</kw>
+<kw name="Log List" owner="Collections">
+<msg time="2025-02-13T15:18:21.973074" level="INFO">List length is 7 and it contains following items:
+0: 1
+1: 2
+2: 3
+3: 4
+4: 2
+5: 1
+6: 2</msg>
+<arg>${list1}</arg>
+<doc>Logs the length and contents of the ``list`` using given ``level``.</doc>
+<status status="PASS" start="2025-02-13T15:18:21.973074" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-02-13T15:18:21.973074" elapsed="0.000000"/>
+</test>
+<doc>This test deals with common keywords used from Collections library
+A library providing keywords for handling lists and dictionaries.
+official documentation : https://robotframework.org/robotframework/latest/libraries/Collections.html</doc>
+<status status="PASS" start="2025-02-13T15:18:21.744241" elapsed="0.228833"/>
+</suite>
+<statistics>
+<total>
+<stat pass="19" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Collections List" id="s1" pass="19" fail="0" skip="0">Collections List</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

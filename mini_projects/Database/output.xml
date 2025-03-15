@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.8.0 on win32)" generated="2025-03-13T13:48:11.562968" rpa="false" schemaversion="5">
+<suite id="s1" name="Database Tests" source="C:\Users\APisal\PycharmProjects\RobotFramework_Python\mini_projects\Database\database_tests.robot">
+<test id="s1-t1" name="Scenario: Connect to the database" line="6">
+<kw name="Given I connect to the database">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<msg time="2025-03-13T13:48:11.707856" level="FAIL">Recursive execution stopped.</msg>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.011524">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.011524">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707856" elapsed="0.013049">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.707345" elapsed="0.013560">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.022677">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.022677">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.698228" elapsed="0.031688">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.040700">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.040700">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.040700">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.040700">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.040700">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.689216" elapsed="0.047710">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.688188" elapsed="0.048738">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.688188" elapsed="0.048738">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.673175" elapsed="0.063751">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.079390">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.079390">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.079390">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.079390">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.092908">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.657536" elapsed="0.095418">Recursive execution stopped.</status>
+</kw>
+<arg>${DB_NAME}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.656531" elapsed="0.096423">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-03-13T13:48:11.656531" elapsed="0.096423">Recursive execution stopped.</status>
+</kw>
+<kw name="Then I should successfully connect to the database">
+<status status="NOT RUN" start="2025-03-13T13:48:11.752954" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-03-13T13:48:11.641518" elapsed="0.111436">Recursive execution stopped.</status>
+</test>
+<test id="s1-t2" name="Scenario: Fetch data from regions" line="10">
+<kw name="Given I connect to the database">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<msg time="2025-03-13T13:48:11.800245" level="FAIL">Recursive execution stopped.</msg>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.012512">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.800245" elapsed="0.016020">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.031654">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.045166">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.784611" elapsed="0.047694">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.781601" elapsed="0.050704">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.781601" elapsed="0.050704">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.781601" elapsed="0.050704">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.781601" elapsed="0.050704">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.781601" elapsed="0.050704">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.781601" elapsed="0.050704">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.063716">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.075726">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.075726">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.768589" elapsed="0.075726">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<arg>${DB_NAME}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.091361">Recursive execution stopped.</status>
+</kw>
+<kw name="When I execute the SQL statement to fetch all regions">
+<status status="NOT RUN" start="2025-03-13T13:48:11.844315" elapsed="0.000000"/>
+</kw>
+<kw name="Then the result should not be empty">
+<status status="NOT RUN" start="2025-03-13T13:48:11.844315" elapsed="0.000000"/>
+</kw>
+<kw name="And I disconnect from the database">
+<status status="NOT RUN" start="2025-03-13T13:48:11.848322" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-03-13T13:48:11.752954" elapsed="0.095368">Recursive execution stopped.</status>
+</test>
+<test id="s1-t3" name="Scenario: Verify countries count" line="16">
+<kw name="Given I connect to the database">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<kw name="Connect To Database" owner="Keywords">
+<msg time="2025-03-13T13:48:11.911647" level="FAIL">Recursive execution stopped.</msg>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.000000">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.015634">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.015634">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.015634">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.015634">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.015634">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.015634">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.018143">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.018143">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.018143">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.018143">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.018143">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.018143">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.911647" elapsed="0.018143">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.906639" elapsed="0.023151">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.034165">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.895625" elapsed="0.042186">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.057827">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.057827">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.057827">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.057827">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.057827">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.879984" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.863959" elapsed="0.079359">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.863959" elapsed="0.079359">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${db_name}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<arg>${DB_NAME}</arg>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</kw>
+<kw name="When I execute the SQL statement to count countries">
+<status status="NOT RUN" start="2025-03-13T13:48:11.943318" elapsed="0.000000"/>
+</kw>
+<kw name="Then the count should be ${EXPECTED_COUNTRIES_COUNT}" source_name="the count should be ${expected_count}">
+<status status="NOT RUN" start="2025-03-13T13:48:11.943318" elapsed="0.000000"/>
+</kw>
+<kw name="And I disconnect from the database">
+<status status="NOT RUN" start="2025-03-13T13:48:11.943318" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-03-13T13:48:11.848322" elapsed="0.094996">Recursive execution stopped.</status>
+</test>
+<status status="FAIL" start="2025-03-13T13:48:11.578606" elapsed="0.364712"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Database Tests" id="s1" pass="0" fail="3" skip="0">Database Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
