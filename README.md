@@ -46,7 +46,7 @@ You can download and install Git from the official site: Git Downloads
 2. Clone the Repository
 Once Git is installed, you can clone this repository to your local machine using the following command:
 
-git clone https://github.com/yourusername/robot-framework-python-automation.git
+git clone https://github.com/AbhijitPisal1/RobotFramework_Python.git
 Replace yourusername with your actual GitHub username.
 
 3. Navigate to the Project Directory
