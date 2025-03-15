@@ -40,52 +40,47 @@ Git (for cloning the repository)
 ### Git Installation and Setup
 If you don’t have Git installed, follow the instructions below:
 
-Install Git
+1. Install Git
 You can download and install Git from the official site: Git Downloads
 
-Clone the Repository
+2. Clone the Repository
 Once Git is installed, you can clone this repository to your local machine using the following command:
-
-bash
 
 git clone https://github.com/yourusername/robot-framework-python-automation.git
 Replace yourusername with your actual GitHub username.
 
-Navigate to the Project Directory
+3. Navigate to the Project Directory
 Change to the directory where you have cloned the repository:
 
-bash
 cd robot-framework-python-automation
-Installing Dependencies
+
+### Installing Dependencies
 To set up the environment and install the necessary dependencies, follow these steps:
 
-Create a virtual environment (optional but recommended):
+1. Create a virtual environment (optional but recommended):
 
-bash
 python -m venv venv
-Activate the virtual environment:
+
+2. Activate the virtual environment:
 
 Windows:
-bash
 venv\Scripts\activate
 
 Mac/Linux:
-bash
 source venv/bin/activate
-Install the required Python dependencies:
 
-bash
+3. Install the required Python dependencies:
+
 pip install -r requirements.txt
 Note: If the requirements.txt file is not provided, you can manually install the required packages for Robot Framework:
 
-bash
 pip install robotframework
-Running the Tests
+
+### Running the Tests
 Once you've installed the necessary dependencies, you can run the test automation scripts using Robot Framework.
 
 To execute a Robot Framework test case, navigate to the test directory and run:
 
-bash
 robot <test_file>.robot
 Example:
 
@@ -93,5 +88,5 @@ bash
 robot tests/my_test_suite.robot
 You can also execute multiple test suites by providing the path to the directory that contains .robot files.
 
-Contributing
+### Contributing
 Feel free to fork the repository and submit pull requests! If you find any bugs, issues, or have suggestions, feel free to open an issue.
