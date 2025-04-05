@@ -1,0 +1,57 @@
+*** Documentation ***
+This file contains information about Page Object Model in Q&A form for interview preparation
+================================================================================
+Q.) Explain Page Object Model
+Answer:
+    - The Page Object Model (POM) is a design pattern in Selenium.
+    - It helps create an object repository for storing web elements. Each page of the web application has a corresponding Page Class.
+    - Enhances test maintenance by organising code.
+    - Reduces code duplication by separating classes for each web page. If a web element or functionality on a page changes, you only need to update the relevant page class, not every test case that uses it.
+================================================================================
+Q.) Explain the flow in POM when using BaseClass, TestClass, PageClass
+
+Answer:
+    - Setup: TestClass starts by calling invokedriver() from BaseClass to initialize the WebDriver, open the specified URL, and maximize the browser window.
+    - BaseClass: Initializes WebDriver, manages browser setup and teardown, and sets up logging.
+    - LoginPage: Implements Page Object Model for the login page, interacts with web elements, and logs actions.
+    - Login Test: Contains TestNG test methods for login functionality, uses assertions, and logs test actions.
+    - Testng.xml: Configures TestNG suite for executing tests and includes a listener for reporting.
+================================================================================
+Q.) What are the advantages of using POM?
+
+Answer:
+●	Reusability
+●	Better code maintainability
+●	Separation of test logic from page structure
+●	Less duplication of code
+●	If a web element or functionality on a page changes, you only need to update the relevant page class, not every test case that uses it
+================================================================================
+Q.) How is POM different from Page Factory?
+
+Answer:
+●	POM is a design pattern, while Page Factory is a class in Selenium that provides an easier way to initialise web elements.
+●	Page Factory uses the @FindBy annotation to locate elements.
+================================================================================
+Q.) What is the role of constructors in POM?
+
+Answer:
+●	Constructors in POM are used to initialise the WebDriver instance and other necessary configurations for the page class, such as initialising elements using Page Factory.
+●	Web elements in POM can be initialised using PageFactory.initElements(driver, this) or by creating a constructor and passing the driver instance.
+================================================================================
+Q.) What are the challenges faced while implementing POM?
+
+Answer:
+●	Initial setup effort
+●	Need for clear organisation of classes for complex applications
+●	Managing dependencies between page classes
+================================================================================
+Q.) What are the disadvantages of POM?
+
+Answer:
+●	POM can lead to the creation of too many classes for large applications
+●	Increased complexity in managing them
+================================================================================
+Q.) Can you use multiple drivers in POM?
+
+Answer:
+●	Yes, but it's essential to ensure that each page class or test class has its own driver instance to avoid conflicts.
